@@ -40,6 +40,3 @@ Language buttons RU/EN/UK at the top. Stats and “Trusted by” are translated 
 
 Lightbox
 Click any gallery image. Placeholder appears if a file is missing.
-
-License / Attribution
-Replace this section with your details if publishing publicly.

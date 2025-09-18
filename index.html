@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Студия 3D визуализации: интерьеры, экстерьеры, предметная визуализация." />
+  
+  
+  <title>3D Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="logo" aria-label="Логотип">3D<span>Studio</span></div>
+      <nav class="main-nav" aria-label="Главная навигация">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Открыть меню" data-i18n-aria-label="nav.openMenu"><span></span></button>
+        <ul class="nav-list">
+          <li><a href="#gallery" data-i18n="nav.gallery">Галерея</a></li>
+          <li><a href="#about" data-i18n="nav.about">Обо мне</a></li>
+          <li><a href="#services" data-i18n="nav.services">Услуги</a></li>
+          <li><a href="#contact" data-i18n="nav.contacts">Контакты</a></li>
+        </ul>
+        <div class="lang-switch" role="group" aria-label="Language switcher">
+          <button class="lang-btn" data-lang="ru" aria-pressed="true">RU</button>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          <button class="lang-btn" data-lang="uk" aria-pressed="false">UK</button>
+          <button class="theme-toggle" aria-label="Переключить тему" data-i18n-aria-label="theme.toggle" title="Theme">🌙</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-label="Главный баннер">
+      <div class="container hero-inner">
+  <h1 data-i18n="hero.title">Фотореалистичная 3D визуализация</h1>
+  <p data-i18n="hero.subtitle">Интерьеры · Экстерьеры · Предметы</p>
+  <div class="cta-group">
+    <a class="btn primary" href="#gallery" data-i18n="hero.cta">Смотреть работы</a>
+  </div>
+      </div>
+      <div class="hero-overlay"></div>
+    </section>
+
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container section-head">
+  <h2 id="gallery-title" data-i18n="gallery.title">Галерея</h2>
+  <p class="section-sub" data-i18n="gallery.sub">Подборка готовых рендеров</p>
+      </div>
+    <div class="gallery-filters" role="toolbar" aria-label="Фильтры галереи">
+  <button class="filter-btn active" data-filter="interior" data-i18n="filters.interior">Интерьеры</button>
+  <button class="filter-btn" data-filter="exterior" data-i18n="filters.exterior">Экстерьеры</button>
+    </div>
+      <div class="gallery-grid" id="gallery-grid" aria-live="polite">
+        
+        <figure class="gallery-item" data-category="interior">
+          <img src="assets/images/1.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="interior">
+          <img src="assets/images/2.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="interior">
+          <img src="assets/images/3.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="interior">
+          <img src="assets/images/4.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="interior">
+          <img src="assets/images/5.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="interior">
+          <img src="assets/images/6.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="interior">
+          <img src="assets/images/7.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="interior">
+          <img src="assets/images/8.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+
+        
+        <figure class="gallery-item" data-category="exterior">
+          <img src="assets/images/exterior/9.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <img src="assets/images/exterior/10.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <img src="assets/images/exterior/11.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <img src="assets/images/exterior/12.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <img src="assets/images/exterior/13.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <img src="assets/images/exterior/14.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <img src="assets/images/exterior/15.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+        <figure class="gallery-item" data-category="exterior">
+          <img src="assets/images/exterior/16.jpg" alt="" loading="lazy" decoding="async" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <h2 id="about-title" data-i18n="about.title">Обо мне</h2>
+          <p class="lead" data-i18n="about.lead">Я создаю фотореалистичные 3D визуализации, помогая архитекторам, дизайнерам и брендам быстрее принимать решения и впечатлять клиентов.</p>
+          <p data-i18n="about.text">Использую современные пайплайны и рендер-движки. Фокус на детализации, свете и материальности. Готов к проектам любой сложности.</p>
+          <ul class="bullets">
+            <li data-i18n="about.point1">Опыт: 5+ лет</li>
+            <li data-i18n="about.point2">Реалистичные материалы и освещение</li>
+            <li data-i18n="about.point3">Оптимизация сцен для скорости</li>
+          </ul>
+        </div>
+        <div class="about-highlight">
+          <div class="stats">
+            <div><span class="num" data-count="120">120+</span><span class="label" data-i18n="about.stats.projects">проектов</span></div>
+            <div><span class="num" data-count="50">50+</span><span class="label" data-i18n="about.stats.clients">клиентов</span></div>
+            <div><span class="num" data-count="8">8</span><span class="label" data-i18n="about.stats.countries">стран</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="services" aria-labelledby="services-title">
+      <div class="container section-head">
+        <h2 id="services-title" data-i18n="services.title">Услуги</h2>
+        <p class="section-sub" data-i18n="services.sub">Что я делаю</p>
+      </div>
+      <div class="services-cards">
+        <article class="service-card">
+          <h3 data-i18n="services.interiors.title">Интерьеры</h3>
+          <p data-i18n="services.interiors.text">Детализированные интерьерные сцены: жилые и коммерческие пространства, атмосфера и свет.</p>
+          <ul>
+            <li data-i18n="services.interiors.li1">Планирование композиции</li>
+            <li data-i18n="services.interiors.li2">Материалы и текстуры</li>
+            <li data-i18n="services.interiors.li3">Фотореалистичное освещение</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <h3 data-i18n="services.exteriors.title">Экстерьеры</h3>
+          <p data-i18n="services.exteriors.text">Архитектурные визуализации зданий, ландшафт и окружение в нужном времени суток.</p>
+          <ul>
+            <li data-i18n="services.exteriors.li1">Реалистичная среда</li>
+            <li data-i18n="services.exteriors.li2">Атмосферные эффекты</li>
+            <li data-i18n="services.exteriors.li3">Качественные ракурсы</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <h3 data-i18n="services.product.title">Предметная визуализация</h3>
+          <p data-i18n="services.product.text">Каталожные и рекламные рендеры продуктов с акцентом на материал и форму.</p>
+          <ul>
+            <li data-i18n="services.product.li1">Чистые студийные сцены</li>
+            <li data-i18n="services.product.li2">PBR материалы</li>
+            <li data-i18n="services.product.li3">Высокое разрешение</li>
+          </ul>
+        </article>
+      </div>
+      
+      
+      <section class="clients-section" aria-label="Клиенты и платформы">
+        <div class="container section-head">
+          <h2 data-i18n="clients.title">Доверяют</h2>
+          <p class="section-sub" data-i18n="clients.sub">Выбранные бренды и платформы</p>
+        </div>
+        <div class="container logos-grid">
+          <div class="logo-badge">ArchDaily</div>
+          <div class="logo-badge">Behance</div>
+          <div class="logo-badge">Houzz</div>
+          <div class="logo-badge">CGTrader</div>
+          <div class="logo-badge">Upwork</div>
+          <div class="logo-badge">Fiverr</div>
+        </div>
+      </section>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div>
+          <h2 id="contact-title" data-i18n="contact.title">Контакты</h2>
+          <p class="lead" data-i18n="contact.lead">Опишите задачу — я свяжусь с вами и предложу оптимальный формат сотрудничества.</p>
+          <ul class="contact-list">
+            <li><strong data-i18n="contact.emailLabel">Email:</strong> <a href="mailto:studio@example.com">studio@example.com</a></li>
+            <li><strong data-i18n="contact.tgLabel">Telegram:</strong> <a href="https://t.me/yourhandle" target="_blank" rel="noopener">@yourhandle</a></li>
+            <li><strong data-i18n="contact.igLabel">Instagram:</strong> <a href="#" target="_blank" rel="noopener">@3d.studio</a></li>
+          </ul>
+        </div>
+        <form class="contact-form" aria-label="Форма обратной связи" novalidate>
+          <div class="form-group">
+            <label for="name" data-i18n="form.nameLabel">Имя</label>
+            <input id="name" name="name" type="text" required placeholder="Ваше имя" data-i18n-placeholder="form.namePlaceholder" />
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="form.emailLabel">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@mail.com" data-i18n-placeholder="form.emailPlaceholder" />
+          </div>
+          <div class="form-group">
+            <label for="message" data-i18n="form.messageLabel">Сообщение</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Опишите проект" data-i18n-placeholder="form.messagePlaceholder"></textarea>
+          </div>
+          <button class="btn primary" type="submit" data-i18n="form.submit">Отправить</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+  <p>&copy; <span id="year"></span> 3D Studio. <span data-i18n="footer.rights">Все права защищены.</span></p>
+      <a href="#top" class="back-to-top" aria-label="Наверх">↑</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" hidden>
+    <button class="lightbox-close" aria-label="Закрыть">×</button>
+    <img class="lightbox-image" alt="Просмотр изображения" />
+    
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

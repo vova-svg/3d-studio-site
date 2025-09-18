@@ -1,6 +1,6 @@
 ## 3D Visualization Studio — One‑page site
 
-Minimal, modern, responsive portfolio for a 3D visualization studio.
+Minimal, modern, responsive for a 3D visualization studio.
 
 Features
 - Dark/light theme toggle (persists)
@@ -40,20 +40,6 @@ Language buttons RU/EN/UK at the top. Stats and “Trusted by” are translated 
 
 Lightbox
 Click any gallery image. Placeholder appears if a file is missing.
-
-Deploy — GitHub Pages
-1) Create a repo and push files.
-2) Settings → Pages → Build and deployment → Branch: `main` → Folder: `/ (root)` → Save
-3) URL: `https://<username>.github.io/<repo>/`
-
-Deploy — Netlify / Vercel
-Import the repository. No build command required; output directory is the repo root.
-
-Upwork portfolio tips
-- Add the live URL and 2–3 best screenshots (Hero + Gallery) to your project.
-- Brief description: “One‑page 3D visualization studio site: i18n, theme toggle, animated gallery and counters, lightbox, responsive grid.”
-- Mention stack: HTML/CSS/JS, no frameworks, fast load.
-- Attach a short GIF showing gallery filters and lightbox.
 
 License / Attribution
 Replace this section with your details if publishing publicly.
